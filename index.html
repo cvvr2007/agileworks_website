@@ -5,6 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agileworks Global | Engineering Agility. Global Scale.</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Custom inline styles matching your portfolio hover effects and green tags */
+    .card {
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    }
+    .card:hover {
+      border-color: #00C896 !important;
+      box-shadow: 0 10px 25px -5px rgba(0, 200, 150, 0.15);
+    }
+    .section-tag {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #00C896;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+  </style>
 </head>
 <body>
 
@@ -48,10 +68,11 @@
         <div class="grid-2">
           <div class="card">
             <div>
-              <h3>Agile Transformations &amp; Methodologies</h3>
+              <span class="section-tag">Transformation</span>
+              <h3 style="margin-top: 0;">Agile Transformations &amp; Methodologies</h3>
               <p>We guide teams completely new to Kanban, Scrum, or Scrumban, scaling them successfully into enterprise SAFe frameworks with predictable velocity.</p>
             </div>
-            <div class="badge-list">
+            <div class="badge-list" style="margin-top: 1.2rem;">
               <span class="badge">Scrum</span>
               <span class="badge">Kanban</span>
               <span class="badge">Scrumban</span>
@@ -61,10 +82,11 @@
           
           <div class="card">
             <div>
-              <h3>Enterprise Tech Stack &amp; Tooling</h3>
+              <span class="section-tag">Infrastructure</span>
+              <h3 style="margin-top: 0;">Enterprise Tech Stack &amp; Tooling</h3>
               <p>Deep technical integration across leading enterprise management and reporting suites for transparent software delivery metrics.</p>
             </div>
-            <div class="badge-list">
+            <div class="badge-list" style="margin-top: 1.2rem;">
               <span class="badge">Azure DevOps</span>
               <span class="badge">Jira</span>
               <span class="badge">Power BI</span>
@@ -78,7 +100,8 @@
 
     <section class="bg-slate">
       <div class="container" style="text-align: center;">
-        <h2 class="section-title">Flagship Offering: Agile-as-a-Service (AaaS)</h2>
+        <span class="section-tag" style="display: inline-block; margin-bottom: 8px;">Retainer Model</span>
+        <h2 class="section-title" style="margin-top: 0;">Flagship Offering: Agile-as-a-Service (AaaS)</h2>
         <p class="section-subtitle" style="max-width: 800px; margin: 0 auto 2rem auto;">Immediate, elastic access to senior Scrum Master pods and delivery leadership without the overhead of full-time hiring.</p>
         <a href="services.html" class="btn-primary">View AaaS Retainer Models</a>
       </div>

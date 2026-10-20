@@ -5,6 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Global Markets &amp; Financial Rails | Agileworks Global</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Custom inline styles matching your portfolio hover effects and green tags */
+    .card {
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    }
+    .card:hover {
+      border-color: #00C896 !important;
+      box-shadow: 0 10px 25px -5px rgba(0, 200, 150, 0.15);
+    }
+    .section-tag {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #00C896;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+  </style>
 </head>
 <body>
 
@@ -32,76 +52,100 @@
 
   <main>
     <section class="hero">
-      <h1>
-          Global Markets &amp; <span class="gradient-text">Financial Rails</span>
-        </h1>
+      <h1>Global Markets &amp; <span class="gradient-text">Financial Rails</span></h1>
       <p>Seamless cross-border service delivery, multi-currency settlement, and compliance-backed export architecture.</p>
     </section>
 
-    <section>
+    <section class="bg-slate">
       <div class="container">
         <h2 class="section-title">
           Authorized <span class="gradient-text">International Corridors</span>
         </h2>
         <p class="section-subtitle">Active multi-currency service delivery and secure settlement rails across major global economic hubs.</p>
         
-        <div class="corridors-grid">
-  <div class="corridor-card">
-    <h3>ANZ Network</h3>
-    <p><strong>Covered Currencies:</strong> Australian Dollar (AUD), New Zealand Dollar (NZD), Fijian Dollar (FJD), Papua New Guinea Kina (PGK), and surrounding Pacific territories.</p>
-  </div>
-  
-  <div class="corridor-card">
-    <h3>APAC Region</h3>
-    <p><strong>Covered Currencies:</strong> Singapore Dollar (SGD), Japanese Yen (JPY), Hong Kong Dollar (HKD), Malaysian Ringgit (MYR), Thai Baht (THB), Philippine Peso (PHP), Indonesian Rupiah (IDR), and Indian Rupee (INR).</p>
-  </div>
-  
-  <div class="corridor-card">
-    <h3>GCC &amp; Middle East</h3>
-    <p><strong>Covered Currencies:</strong> UAE Dirham (AED), Saudi Riyal (SAR), Bahraini Dinar (BHD), Qatari Riyal (QAR), Omani Rial (OMR), Kuwaiti Dinar (KWD), and Israeli New Shekel (ILS).</p>
-  </div>
-  
-  <div class="corridor-card">
-    <h3>Europe &amp; Nordics</h3>
-    <p><strong>Covered Currencies:</strong> British Pound (GBP), Euro (EUR), Swiss Franc (CHF), Swedish Krona (SEK), Norwegian Krone (NOK), Danish Krone (DKK), Polish Złoty (PLN), and Czech Koruna (CZK).</p>
-  </div>
-  
-  <div class="corridor-card">
-    <h3>North America &amp; Africa</h3>
-    <p><strong>Covered Currencies:</strong> United States Dollar (USD), Canadian Dollar (CAD), Mexican Peso (MXN), South African Rand (ZAR), Kenyan Shilling (KES), Nigerian Naira (NGN), and Mauritian Rupee (MUR).</p>
-  </div>
-</div>
-        <div class="pillars-card">
-          <h3>
-          Operational &amp; Financial Integration Architecture <br>
-          <span class="gradient-text">(The 5 Pillars)</span>
-        </h3>
-          
-          <div class="pillar-item">
-            <strong>Pillar 1: Banking &amp; Cross-Border Rail Setup</strong>
-            <p>Axis Bank operating account configuration paired with Xflow (RBI-authorized PA-CB platform) ensuring zero FX markup, live mid-market conversions, and digital KYB verification.</p>
+        <div class="grid-2" style="margin-bottom: 3rem;">
+          <!-- ANZ Network -->
+          <div class="card">
+            <span class="section-tag">Region 1</span>
+            <h3 style="margin-top: 0;">ANZ Network</h3>
+            <p style="margin-top: 0.5rem; color: #64748B; line-height: 1.6;">
+              <strong>Covered Currencies:</strong> Australian Dollar (AUD), New Zealand Dollar (NZD), Fijian Dollar (FJD), Papua New Guinea Kina (PGK), and surrounding Pacific territories.
+            </p>
           </div>
-          
-          <div class="pillar-item">
-            <strong>Pillar 2: Regional Client Ledger &amp; Tax Architecture</strong>
-            <p>Structured multi-currency client ledger mapping international service exports under zero-rated tax rules.</p>
+
+          <!-- APAC Region -->
+          <div class="card">
+            <span class="section-tag">Region 2</span>
+            <h3 style="margin-top: 0;">APAC Region</h3>
+            <p style="margin-top: 0.5rem; color: #64748B; line-height: 1.6;">
+              <strong>Covered Currencies:</strong> Singapore Dollar (SGD), Japanese Yen (JPY), Hong Kong Dollar (HKD), Malaysian Ringgit (MYR), Thai Baht (THB), Philippine Peso (PHP), Indonesian Rupiah (IDR), and Indian Rupee (INR).
+            </p>
           </div>
-          
-          <div class="pillar-item">
-            <strong>Pillar 3: Zoho Books Integration &amp; LUT Compliance</strong>
-            <p>Automated virtual account routing for USD, EUR, GBP, AUD, and SGD, paired with mandatory export statutory declarations (<em>"Supply meant for export under Bond/LUT"</em>).</p>
+
+          <!-- GCC & Middle East -->
+          <div class="card">
+            <span class="section-tag">Region 3</span>
+            <h3 style="margin-top: 0;">GCC &amp; Middle East</h3>
+            <p style="margin-top: 0.5rem; color: #64748B; line-height: 1.6;">
+              <strong>Covered Currencies:</strong> UAE Dirham (AED), Saudi Riyal (SAR), Bahraini Dinar (BHD), Qatari Riyal (QAR), Omani Rial (OMR), Kuwaiti Dinar (KWD), and Israeli New Shekel (ILS).
+            </p>
           </div>
-          
-          <div class="pillar-item">
-            <strong>Pillar 4: Commercial Governance &amp; Contracting</strong>
-            <p>Standardized 14-day proposal validity, Net 15 terms, strict IP ownership transfer clauses tied to full financial clearance, and electronic contract execution.</p>
+
+          <!-- Europe & Nordics -->
+          <div class="card">
+            <span class="section-tag">Region 4</span>
+            <h3 style="margin-top: 0;">Europe &amp; Nordics</h3>
+            <p style="margin-top: 0.5rem; color: #64748B; line-height: 1.6;">
+              <strong>Covered Currencies:</strong> British Pound (GBP), Euro (EUR), Swiss Franc (CHF), Swedish Krona (SEK), Norwegian Krone (NOK), Danish Krone (DKK), Polish Zloty (PLN), and Czech Koruna (CZK).
+            </p>
           </div>
-          
-          <div class="pillar-item">
-            <strong>Pillar 5: Compliance Execution &amp; e-FIRAs</strong>
-            <p>End-to-end inbound cashflow reconciliation (T+1 settlement to Axis Bank) with automated digital Foreign Inward Remittance Advice (e-FIRA) generation within 24 hours.</p>
+
+          <!-- North America & Africa (Full Width or Grid balanced) -->
+          <div class="card" style="grid-column: 1 / -1; max-width: 700px; margin: 0 auto;">
+            <span class="section-tag">Region 5</span>
+            <h3 style="margin-top: 0;">North America &amp; Africa</h3>
+            <p style="margin-top: 0.5rem; color: #64748B; line-height: 1.6;">
+              <strong>Covered Currencies:</strong> United States Dollar (USD), Canadian Dollar (CAD), Mexican Peso (MXN), South African Rand (ZAR), Kenyan Shilling (KES), Nigerian Naira (NGN), and Mauritian Rupee (MUR).
+            </p>
           </div>
         </div>
+
+        <!-- Operational & Financial Integration Architecture -->
+        <div class="card" style="padding: 2.5rem; border-top: 4px solid var(--brand-blue);">
+          <span class="section-tag">Architecture</span>
+          <h2 style="color: var(--primary-dark); font-size: 1.5rem; margin-top: 0; margin-bottom: 0.5rem;">
+            Operational &amp; Financial Integration Architecture
+          </h2>
+          <p style="color: var(--brand-teal); font-weight: 600; margin-bottom: 1.5rem;">(The 5 Pillars)</p>
+          
+          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+            <div>
+              <h4 style="color: var(--primary-dark); margin-bottom: 0.3rem;">Pillar 1: Banking &amp; Cross-Border Rail Setup</h4>
+              <p style="color: #64748B; font-size: 0.95rem; line-height: 1.5;">Axis Bank operating account configuration paired with Xflow (RBI-authorized PA-CB platform) ensuring zero FX markup, live mid-market conversions, and digital KYB verification.</p>
+            </div>
+            
+            <div>
+              <h4 style="color: var(--primary-dark); margin-bottom: 0.3rem;">Pillar 2: Regional Client Ledger &amp; Tax Architecture</h4>
+              <p style="color: #64748B; font-size: 0.95rem; line-height: 1.5;">Structured multi-currency client ledger mapping international service exports under zero-rated tax rules.</p>
+            </div>
+            
+            <div>
+              <h4 style="color: var(--primary-dark); margin-bottom: 0.3rem;">Pillar 3: Zoho Books Integration &amp; LUT Compliance</h4>
+              <p style="color: #64748B; font-size: 0.95rem; line-height: 1.5;">Automated virtual account routing for USD, EUR, GBP, AUD, and SGD, paired with mandatory export statutory declarations ("Supply meant for export under Bond/LUT").</p>
+            </div>
+            
+            <div>
+              <h4 style="color: var(--primary-dark); margin-bottom: 0.3rem;">Pillar 4: Commercial Governance &amp; Contracting</h4>
+              <p style="color: #64748B; font-size: 0.95rem; line-height: 1.5;">Standardized 14-day proposal validity, Net 15 terms, strict IP ownership transfer clauses tied to full financial clearance, and electronic contract execution.</p>
+            </div>
+            
+            <div>
+              <h4 style="color: var(--primary-dark); margin-bottom: 0.3rem;">Pillar 5: Compliance Execution &amp; e-FIRAs</h4>
+              <p style="color: #64748B; font-size: 0.95rem; line-height: 1.5;">End-to-end inbound cashflow reconciliation (T+1 settlement to Axis Bank) with automated digital Foreign Inward Remittance Advice (e-FIRA) generation within 24 hours.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   </main>
@@ -109,7 +153,7 @@
   <footer>
     <div class="footer-grid">
       <div>
-        <h4>AgileWorks Global</h4>
+        <h4>Agileworks Global</h4>
         <p>International IT/ITES sole proprietorship delivering elite enterprise agile transformations and custom engineering automation.</p>
       </div>
       <div>

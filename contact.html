@@ -5,6 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact &amp; Consultations | Agileworks Global</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Custom inline styles matching your site's hover effects and green tags */
+    .form-card {
+      transition: all 0.3s ease-in-out;
+    }
+    .form-card:hover {
+      border-color: #00C896 !important;
+      box-shadow: 0 10px 25px -5px rgba(0, 200, 150, 0.15);
+    }
+    .section-tag {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #00C896;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
 
@@ -32,14 +52,15 @@
 
   <main>
     <section class="hero">
-      <h1><span>Contact &amp; Consultations</span></h1>
+      <h1>Contact &amp; <span class="gradient-text">Consultations</span></h1>
       <p>Get in touch with our elite engineering governance team to schedule your technical consultation.</p>
     </section>
 
     <section class="bg-slate">
       <div class="container">
         <div class="form-card">
-          <h3 style="margin-bottom: 1.5rem; text-align: center; color: var(--primary-dark); font-size: 1.4rem;">Send an Inquiry</h3>
+          <span class="section-tag">Get Connected</span>
+          <h3 style="margin-bottom: 1.5rem; text-align: center; color: var(--primary-dark); font-size: 1.4rem; margin-top: 0;">Send an Inquiry</h3>
           
           <form action="https://api.web3forms.com/submit" method="POST">
             <!-- Your Web3Forms Access Key -->

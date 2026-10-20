@@ -5,6 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us | Agileworks Global</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Custom inline styles matching your service cards hover effect and green tags */
+    .card {
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    }
+    .card:hover {
+      border-color: #00C896 !important;
+      box-shadow: 0 10px 25px -5px rgba(0, 200, 150, 0.15);
+    }
+    .section-tag {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #00C896;
+      letter-spacing: 0.05em;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+    }
+  </style>
 </head>
 <body>
 
@@ -41,11 +61,13 @@
         <!-- Row 1: Vision & Commitment -->
         <div class="grid-2" style="margin-bottom: 2.5rem;">
           <div class="card">
-            <h3>Our Vision</h3>
+            <span class="section-tag">Perspective</span>
+            <h3 style="margin-top: 0;">Our Vision</h3>
             <p>To be the premier global catalyst for engineering excellence—empowering enterprises worldwide to achieve predictable velocity, resilient software architectures, and transparent delivery governance.</p>
           </div>
           <div class="card">
-            <h3>Our Commitment</h3>
+            <span class="section-tag">Promise</span>
+            <h3 style="margin-top: 0;">Our Commitment</h3>
             <p>We are committed to eliminating delivery friction through uncompromising technical rigor, real-time metric visibility, and dedicated agile leadership that adapts seamlessly to your enterprise rhythm.</p>
           </div>
         </div>
@@ -53,15 +75,17 @@
         <!-- Row 2: Core Goal & Core Values -->
         <div class="grid-2" style="margin-bottom: 3rem;">
           <div class="card">
-            <h3>Our Core Goal</h3>
+            <span class="section-tag">Objective</span>
+            <h3 style="margin-top: 0;">Our Core Goal</h3>
             <p>To accelerate time-to-market for our international clients by transforming disjointed development cycles into streamlined, predictable, and measurable value streams.</p>
           </div>
           <div class="card">
-            <h3>Our Core Values</h3>
+            <span class="section-tag">Principles</span>
+            <h3 style="margin-top: 0;">Our Core Values</h3>
             <ul style="margin-top: 0.5rem; padding-left: 1.2rem; color: #64748B; display: flex; flex-direction: column; gap: 8px; font-size: 0.95rem; line-height: 1.5;">
-              <li><strong>Transparency:</strong> Radical clarity through data-driven reporting (Azure DevOps &amp; Power BI).</li>
+              <li><strong>Transparency:</strong> Radical clarity through data-driven reporting (Azure DevOps &amp; Power BI &amp; Jira &amp; ServiceNow ).</li>
               <li><strong>Agility:</strong> Flexible, elastic capacity (AaaS) matching your evolving business demands.</li>
-              <li><strong>Excellence:</strong> Rigorous adherence to industry-best frameworks (SAFe, Scrum, Kanban).</li>
+              <li><strong>Excellence:</strong> Rigorous adherence to industry-best frameworks (SAFe, Scrum, Kanban, Scrumban).</li>
               <li><strong>Compliance:</strong> Uncompromising adherence to international export and financial governance.</li>
             </ul>
           </div>
@@ -75,18 +99,21 @@
         
         <div class="grid-2">
           <div class="card">
-            <h3>Structured Agile Methodologies</h3>
+            <span class="section-tag">Execution</span>
+            <h3 style="margin-top: 0;">Structured Agile Methodologies</h3>
             <p>We scale modern engineering practices precisely to your organization's maturity. We guide teams entirely new to agile through foundational <strong>Scrum, Kanban, or Scrumban</strong> at the team level, and orchestrate massive, multi-team alignment through enterprise-grade <strong>SAFe (Scaled Agile Framework)</strong> Program Increments.</p>
           </div>
           <div class="card">
-            <h3>Enterprise Tooling &amp; Analytics Stack</h3>
+            <span class="section-tag">Infrastructure</span>
+            <h3 style="margin-top: 0;">Enterprise Tooling &amp; Analytics Stack</h3>
             <p>We integrate directly into your existing software ecosystem to eliminate blind spots. Our engineering leads specialize in advanced <strong>Azure DevOps</strong> (Boards, Repos, Pipelines), <strong>Jira</strong>, custom <strong>Power BI</strong> executive dashboards, and <strong>ServiceNow (Agile &amp; ITSM Performance Analytics)</strong>.</p>
           </div>
         </div>
 
         <!-- Global Engagement Banner -->
         <div class="card" style="border-left: 4px solid var(--brand-teal); margin-top: 2.5rem; padding: 2.5rem;">
-          <h3 style="color: var(--primary-dark); font-size: 1.4rem; margin-bottom: 1rem;">Flexible Global Engagement &amp; Settlement Architecture</h3>
+          <span class="section-tag">Global Footprint</span>
+          <h3 style="color: var(--primary-dark); font-size: 1.4rem; margin-bottom: 1rem; margin-top: 0;">Flexible Global Engagement &amp; Settlement Architecture</h3>
           <p style="color: var(--text-dark); line-height: 1.7; margin-bottom: 1rem;">
             Operating from our strategic tech hub in Bengaluru, India, AgileWorks Global provides flexible, high-touch engagement models tailored to client operating hours across <strong>North America, Europe, the Middle East (GCC), APAC, and ANZ</strong>. 
           </p>
@@ -101,7 +128,7 @@
   <footer>
     <div class="footer-grid">
       <div>
-        <h4>AgileWorks Global</h4>
+        <h4>Agileworks Global</h4>
         <p>International IT/ITES sole proprietorship delivering elite enterprise agile transformations and custom engineering automation.</p>
       </div>
       <div>
